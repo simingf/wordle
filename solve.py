@@ -1,28 +1,97 @@
-from data import get_wordle_answers, get_wordle_guesses
-
-guesses = get_wordle_answers()
-answers = get_wordle_answers()
-
 def filter_answers(guess, result, answers):
     """Return a list of answers that match the given guess and result."""
     return [answer for answer in answers if is_valid(guess, result, answer)]
 
 def is_valid(guess, result, word):
     """Return True if the word matches the given guess and result."""
-    # for i in range(5):
-    #     if result[i] == 0: # grey => letter not in word
-    #         for j in range(5):
-    #             if guess[i] == word[j] and result[j] != 2:
-    #                 return False
-    #     elif result[i] == 1: # yellow => letter in word but not at this position
-    #         if guess[i] == word[i] or guess[i] not in word:
-    #             return False
-    #     elif result[i] == 2: # green => letter in word at this position
-    #         if guess[i] != word[i]:
-    #             return False
-    #     else:
-    #         raise ValueError("Invalid result")
-    # return True
+    letters = set({})
+    
+    for i in range(5):
+        letters.add(guess[i])
+    
+    for letter in letters:
+        positions = []
+        for i in range(5):
+            if guess[i] == letter:
+                positions.append(i)
+
+        if len(positions) == 1: # only one letter
+            letter_pos = positions[0]
+            if result[letter_pos] == 0: # gray
+                if letter in word:
+                    return False
+            elif result[letter_pos] == 1: # yellow
+                if guess[letter_pos] == word[letter_pos] or letter not in word:
+                    return False
+            elif result[letter_pos] == 2: # green
+                if guess[letter_pos] != word[letter_pos]:
+                    return False
+
+        if len(positions) == 2: # letter appears twice
+            pos1 = positions[0]
+            pos2 = positions[1]
+
+            # gray gray
+            if result[pos1] == 0 and result[pos2] == 0:
+                if letter in word:
+                    return False
+
+            # yellow gray or gray yellow
+            if result[pos1] == 1 and result[pos2] == 0 or result[pos1] == 0 and result[pos2] == 1:
+                if count(letter, word) != 1:
+                    return False
+                elif guess[pos1] == word[pos1]:
+                    return False
+                elif guess[pos2] == word[pos2]:
+                    return False
+            
+            # green gray
+            if result[pos1] == 2 and result[pos2] == 0:
+                if count(letter, word) != 1:
+                    return False
+                elif guess[pos1] != word[pos1]:
+                    return False
+            
+            # gray green 
+            if result[pos1] == 0 and result[pos2] == 2:
+                if count(letter, word) != 1:
+                    return False
+                elif guess[pos2] != word[pos2]:
+                    return False
+                    
+            # green yellow
+            if result[pos1] == 2 and result[pos2] == 1:
+                if count(letter, word) < 2:
+                    return False
+                elif guess[pos1] != word[pos1]:
+                    return False
+                elif guess[pos2] == word[pos2]:
+                    return False
+
+            # yellow green
+            if result[pos1] == 1 and result[pos2] == 2:
+                if count(letter, word) < 2:
+                    return False
+                elif guess[pos1] == word[pos1]:
+                    return False
+                elif guess[pos2] != word[pos2]:
+                    return False
+
+            # green green
+            if result[pos1] == 2 and result[pos2] == 2:
+                if count(letter, word) != 2:
+                    return False
+                elif guess[pos1] != word[pos1] or guess[pos2] != word[pos2]:
+                    return False
+    
+        if len(positions) == 3: # letter appears three times
+            return True
+    
+    return True
+
+def count(char, word):
+    """Return the number of times char appears in word."""
+    return sum([1 for letter in word if letter == char])
 
 def next_guess(guesses, answers):
     """Return the next guess for the game."""
@@ -46,25 +115,24 @@ def value(guess, answers):
         dict[tuple(result)] = dict.get(tuple(result), 0) + 1
     for val in dict.values():
         res += val * (len(answers) - val)
-    print("value of", guess, "is", res)
     return res
 
 def get_result(guess, answer):
     """Return the result of the guess for the given answer."""
-    res = []
+    # 0 = nothing, 1 = yellow, 2 = green
+    output = [0, 0, 0, 0, 0]
+    
+    # check for correct letter and placement
     for i in range(5):
         if guess[i] == answer[i]:
-            res += [2]
-        elif guess[i] in answer:
-            res += [1]
-        else:
-            res += [0]
-    return res
-
-if __name__ == "__main__":
-    answers = filter_answers("crane", [0, 1, 0, 0, 1], answers)
-    answers = filter_answers("posit", [0, 0, 0, 0, 0], answers)
-    answers = filter_answers("bleed", [2, 0, 1, 0, 0], answers)
-    print(answers)
-    # guess = next_guess(guesses, answers)
-    # print(guess)
+            output[i] = 2
+            answer = answer[:i] + ' ' + answer[i + 1:]
+           
+    # check for correct letter
+    for i in range(5):
+        char = guess[i]
+        if char in answer and output[i] == 0:
+            output[i] = 1
+            first_occurence = answer.find(char)
+            answer = answer[:first_occurence] + ' ' + answer[first_occurence + 1:]
+    return output
