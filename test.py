@@ -33,6 +33,7 @@ if __name__ == "__main__":
         total_turns_taken += turns
         if turns != 0:
             success += 1
-        print("Game", i, ", ", answer, ": ", turns, "turns", flush=True)
+        print("Game", i+1, ", ", answer, ": ", turns, "turns", flush=True)
+        if (i+1) % 10 == 0:
+            print("Average turns taken:", round(total_turns_taken / success, 2))
     print("Success rate:", success / trials)
-    print("Average turns taken:", total_turns_taken / success)
