@@ -95,7 +95,7 @@ def count(char, word):
 
 def next_guess(guesses, answers):
     """Return the next guess for the game."""
-    if len(answers) == 1:
+    if len(answers) == 1 or len(answers) == 2:
         return answers[0]
     best_guess = None
     best_value = 0
@@ -105,6 +105,23 @@ def next_guess(guesses, answers):
             best_guess = guess
             best_value = val
     return best_guess
+
+def next_best_guesses(guesses, answers):
+    """Return the next best guesses for the game"""
+    if len(answers) == 1:
+        return [answers[0]]
+    if len(answers) == 2:
+        return answers
+    best_value = 0
+    for guess in guesses:
+        val = value(guess, answers)
+        if val > best_value:
+            best_value = val
+    best_guesses = []
+    for guess in guesses:
+        if value(guess, answers) == best_value:
+            best_guesses += [guess]
+    return best_guesses
 
 def value(guess, answers):
     """Return the value of the given guess."""
