@@ -30,7 +30,9 @@ if __name__ == "__main__":
         best_guesses = next_best_guesses(guesses, answers)
         val = round(value(best_guesses[0], answers) / len(answers), 2)
         print("Number of possible answers left:", len(answers))
-        if (len(best_guesses) == 1):
+        if len(answers) <= 10:
+            print("The possible answers are", answers)
+        if len(best_guesses) == 1:
             print("The best guess is \"" + best_guesses[0] + "\"")
             print("This guess is expected to eliminate", val, "possible answers")
         else:

@@ -95,43 +95,70 @@ def count(char, word):
 
 def next_guess(guesses, answers):
     """Return the next guess for the game."""
-    if len(answers) == 1 or len(answers) == 2:
+    if len(answers) <= 2:
         return answers[0]
+    
     best_guess = None
     best_value = 0
+
     for guess in guesses:
         val = value(guess, answers)
+        # don't care if word is a possible answer as long as it maximizes value
         if val > best_value:
-            best_guess = guess
             best_value = val
+            best_guess = guess
+        # better to guess a word that is in the answers if it also maximizes value
+        if val == best_value and guess in answers:
+            best_guess = guess
+    
     return best_guess
 
 def next_best_guesses(guesses, answers):
     """Return the next best guesses for the game"""
+    # only one possible answer left
     if len(answers) == 1:
         return [answers[0]]
+    
+    # take the 50/50
     if len(answers) == 2:
         return answers
+
+    # find highest possible value
     best_value = 0
     for guess in guesses:
         val = value(guess, answers)
         if val > best_value:
             best_value = val
+
+    # get all possible guesses that maximize value (inclusive / only those in possible answers)
     best_guesses = []
+    best_guesses_in_answers = []
     for guess in guesses:
         if value(guess, answers) == best_value:
             best_guesses += [guess]
+            if guess in answers:
+                best_guesses_in_answers += [guess]
+
+    # better to guess a word that is in the answers if it also maximizes value
+    if len(best_guesses_in_answers) > 0:
+        return best_guesses_in_answers
+
     return best_guesses
 
 def value(guess, answers):
     """Return the value of the given guess."""
     dict = {}
     res = 0
+
+    # for a single guess, count the number of times each possible result will occur for the possible answers
     for answer in answers:
         result = get_result(guess, answer)
         dict[tuple(result)] = dict.get(tuple(result), 0) + 1
+
+    # add the probability of getting a result multiplied by the number of potential answers eliminated by that result
     for val in dict.values():
         res += val * (len(answers) - val)
+
     return res
 
 def get_result(guess, answer):
