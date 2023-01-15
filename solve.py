@@ -85,7 +85,14 @@ def is_valid(guess, result, word):
                     return False
     
         if len(positions) == 3: # letter appears three times
-            return True
+            # I was too lazy to count every case, so I only return false for words which have letters that are gray in the guess
+            bad_letters = set({})
+            for i in range(5):
+                if result[i] == 0:
+                    bad_letters.add(guess[i])
+            for char in word:
+                if char in bad_letters:
+                    return False
     
     return True
 
