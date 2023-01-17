@@ -42,10 +42,16 @@ if __name__ == "__main__":
             result = str(input("Result: "))
         result = [int(x) for x in result]
         answers = filter_answers(guess, result, answers)
+        if len(answers) == 0:
+            print()
+            print("The answer is not in our list of possible answers.")
+            print()
+            break
         if len(answers) == 1:
             print()
             print("Turn", i + 2)
             print("The answer is \"" + answers[0] + "\"")
+            print()
             break
         best_guesses = next_best_guesses(program_guesses, answers)
         val = round(value(best_guesses[0], answers) / len(answers), 2)
