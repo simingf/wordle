@@ -16,9 +16,17 @@ driver.get("https://www.nytimes.com/games/wordle/index.html")
 
 sleep(0.5)
 
+tracker_button_path = "//*[@id=\"pz-gdpr-btn-closex\"]"
+try:
+    close_tracker_button = driver.find_element(By.XPATH, tracker_button_path)
+    close_tracker_button.click()
+except NoSuchElementException:
+    pass
+
 button_path = "/html/body/div/div/dialog/div/button"
 close_button = driver.find_element(By.XPATH, button_path)
 close_button.click()
+
 
 sleep(0.5)
 

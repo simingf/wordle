@@ -37,3 +37,71 @@ JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_au
 Dynamically enable window occlusion 1
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 [Parent 6560, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1677625442214	geckodriver	INFO	Listening on 127.0.0.1:32961
+1677625442759	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47295" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileY39eRS"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1677625443822	Marionette	INFO	Marionette enabled
+1677625443834	Marionette	INFO	Listening on port 41689
+Read port: 41689
+WebDriver BiDi listening on ws://127.0.0.1:47295
+1677625443980	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileY39eRS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47295/devtools/browser/c59c5bdd-5014-44eb-9931-18cf30798591
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U1KVG_mJ4Y43Q94sC__L5Y27Ilp_TqM8IF3zBLVmW9g.js line 2 > eval line 7550 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677625482171	Marionette	INFO	Stopped listening on port 41689
+1677625488930	geckodriver	INFO	Listening on 127.0.0.1:57861
+1677625489475	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38007" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDeTUQC"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1677625490150	Marionette	INFO	Marionette enabled
+1677625490155	Marionette	INFO	Listening on port 35113
+Read port: 35113
+WebDriver BiDi listening on ws://127.0.0.1:38007
+1677625490280	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDeTUQC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38007/devtools/browser/0dd23ce7-16dd-4463-a976-cfdef0034663
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U1KVG_mJ4Y43Q94sC__L5Y27Ilp_TqM8IF3zBLVmW9g.js line 2 > eval line 6684 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677625527869	Marionette	INFO	Stopped listening on port 35113
+1677625532546	geckodriver	INFO	Listening on 127.0.0.1:47991
+1677625533091	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53133" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileeMXmga"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1677625533780	Marionette	INFO	Marionette enabled
+1677625533784	Marionette	INFO	Listening on port 40885
+Read port: 40885
+WebDriver BiDi listening on ws://127.0.0.1:53133
+1677625533911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeMXmga/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53133/devtools/browser/cb85516d-b189-49c4-891d-9f780e9a4b4b
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U1KVG_mJ4Y43Q94sC__L5Y27Ilp_TqM8IF3zBLVmW9g.js line 2 > eval line 2279 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677625898517	Marionette	INFO	Stopped listening on port 40885
+1677625903133	geckodriver	INFO	Listening on 127.0.0.1:51393
+1677625903678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59045" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileG4oYI0"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1677625904400	Marionette	INFO	Marionette enabled
+1677625904405	Marionette	INFO	Listening on port 46447
+Read port: 46447
+WebDriver BiDi listening on ws://127.0.0.1:59045
+1677625904542	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileG4oYI0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59045/devtools/browser/38851e0a-de31-4c72-9b19-cb591fa54d41
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U1KVG_mJ4Y43Q94sC__L5Y27Ilp_TqM8IF3zBLVmW9g.js line 2 > eval line 3867 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1677625923465	Marionette	INFO	Stopped listening on port 46447
