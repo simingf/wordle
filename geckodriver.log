@@ -155,3 +155,391 @@ DevTools listening on ws://127.0.0.1:56924/devtools/browser/3a53c011-3f27-411f-8
 1677626069189	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/ENhUjQ5Efr1LKcBlRSMtCxEMsPeXm4hb-JW7itjXrRA.js line 2 > eval line 3810 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/B0h6yWoM4A2thohR-97yuNcdUnoq8bXKVyp7ELIWWXY.js line 2 > eval line 1149 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677742907323	geckodriver	INFO	Listening on 127.0.0.1:59559
+1677742910411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59560" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileYQSMix"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677742910781	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677742910786	Marionette	INFO	Listening on port 59576
+Read port: 59576
+WebDriver BiDi listening on ws://127.0.0.1:59560
+1677742910925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileYQSMix\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59560/devtools/browser/d63a6fef-eca6-4e94-b9d5-1789c753e99c
+JavaScript warning: https://pagead2.googlesyndication.com/bg/I2AVw-E8vr7fia97GFekWL1oTCJcTvshaudARuK5faA.js line 2 > eval line 3746 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677742915254	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/I2AVw-E8vr7fia97GFekWL1oTCJcTvshaudARuK5faA.js line 2 > eval line 873 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1677742930418	Marionette	INFO	Stopped listening on port 59576
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 27796, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1677744025363	geckodriver	INFO	Listening on 127.0.0.1:60421
+1677744028389	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60422" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileGv4Ok5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677744028734	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677744028739	Marionette	INFO	Listening on port 60439
+WebDriver BiDi listening on ws://127.0.0.1:60422
+Read port: 60439
+1677744028977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileGv4Ok5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60422/devtools/browser/75a8d712-8495-4d4c-b1b0-6c07b2ee2528
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hTGw0iTttGPYNj9jnBVYIcaXVb8tbW1IYYT-gsExgL0.js line 2 > eval line 56 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677744033019	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hTGw0iTttGPYNj9jnBVYIcaXVb8tbW1IYYT-gsExgL0.js line 2 > eval line 5760 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1677744050121	Marionette	INFO	Stopped listening on port 60439
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 16476, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1677744054025	geckodriver	INFO	Listening on 127.0.0.1:60672
+1677744057066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60673" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofilexKE79K"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677744057409	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677744057414	Marionette	INFO	Listening on port 60684
+WebDriver BiDi listening on ws://127.0.0.1:60673
+Read port: 60684
+1677744057639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofilexKE79K\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60673/devtools/browser/cacd3f7b-d74c-4841-a8b4-bb276d75deb0
+1677744061741	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hTGw0iTttGPYNj9jnBVYIcaXVb8tbW1IYYT-gsExgL0.js line 2 > eval line 1611 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hTGw0iTttGPYNj9jnBVYIcaXVb8tbW1IYYT-gsExgL0.js line 2 > eval line 7646 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1677744075115	Marionette	INFO	Stopped listening on port 60684
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677744079048	geckodriver	INFO	Listening on 127.0.0.1:63208
+1677744082108	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofilegzTQUh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677744082450	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677744082455	Marionette	INFO	Listening on port 63218
+WebDriver BiDi listening on ws://127.0.0.1:63209
+Read port: 63218
+1677744082691	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofilegzTQUh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63209/devtools/browser/fdc1d82d-8483-4e96-b8ac-771de230df10
+1677744086346	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hTGw0iTttGPYNj9jnBVYIcaXVb8tbW1IYYT-gsExgL0.js line 2 > eval line 1652 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hTGw0iTttGPYNj9jnBVYIcaXVb8tbW1IYYT-gsExgL0.js line 2 > eval line 7534 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1677744099862	Marionette	INFO	Stopped listening on port 63218
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677744106668	geckodriver	INFO	Listening on 127.0.0.1:63441
+1677744109729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63442" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileChkEj8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677744110210	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677744110216	Marionette	INFO	Listening on port 63456
+Read port: 63456
+WebDriver BiDi listening on ws://127.0.0.1:63442
+1677744110381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileChkEj8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63442/devtools/browser/b8b0b7de-29e5-4741-8809-00528805b44f
+1677744114876	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hTGw0iTttGPYNj9jnBVYIcaXVb8tbW1IYYT-gsExgL0.js line 2 > eval line 3811 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hTGw0iTttGPYNj9jnBVYIcaXVb8tbW1IYYT-gsExgL0.js line 2 > eval line 3928 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1677744173197	Marionette	INFO	Stopped listening on port 63456
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677785757132	geckodriver	INFO	Listening on 127.0.0.1:65433
+1677785760238	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65434" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofile380Eac"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677785761323	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677785761350	Marionette	INFO	Listening on port 65447
+Read port: 65447
+WebDriver BiDi listening on ws://127.0.0.1:65434
+1677785761634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofile380Eac\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65434/devtools/browser/58a1a357-6696-4a9f-95c5-efa59d7c9be7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hTGw0iTttGPYNj9jnBVYIcaXVb8tbW1IYYT-gsExgL0.js line 2 > eval line 1495 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677785766818	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hTGw0iTttGPYNj9jnBVYIcaXVb8tbW1IYYT-gsExgL0.js line 2 > eval line 16 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1677785779482	Marionette	INFO	Stopped listening on port 65447
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1677785783883	geckodriver	INFO	Listening on 127.0.0.1:49397
+1677785786937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49398" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofilegiFXoa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677785787749	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677785787755	Marionette	INFO	Listening on port 49409
+Read port: 49409
+WebDriver BiDi listening on ws://127.0.0.1:49398
+1677785787895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofilegiFXoa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49398/devtools/browser/3d31a309-6cd8-4b86-8c9e-014b0a382f80
+1677785792843	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hTGw0iTttGPYNj9jnBVYIcaXVb8tbW1IYYT-gsExgL0.js line 2 > eval line 3799 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hTGw0iTttGPYNj9jnBVYIcaXVb8tbW1IYYT-gsExgL0.js line 2 > eval line 4906 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1677785804816	Marionette	INFO	Stopped listening on port 49409
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 39612, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 39612, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1678056786661	geckodriver	INFO	Listening on 127.0.0.1:61586
+1678056789775	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61587" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileOmEPEA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678056790555	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678056790568	Marionette	INFO	Listening on port 61599
+Read port: 61599
+WebDriver BiDi listening on ws://127.0.0.1:61587
+1678056790763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileOmEPEA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61587/devtools/browser/ca3f1095-9902-4ed6-84e3-7d4698ffc867
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YvrCvW6enSrSZlpWfT49hCwWEU4IwRN__jQypf5gIC4.js line 2 > eval line 4268 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678056795738	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9sSoBG9D25FhvYLg3_iwWJ49bM2Qm57VxEM1rvvqfaE.js line 2 > eval line 867 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1678056822971	Marionette	INFO	Stopped listening on port 61599
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1678088149403	geckodriver	INFO	Listening on 127.0.0.1:60119
+1678088152472	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60120" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileKGEClJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678088152900	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678088152906	Marionette	INFO	Listening on port 60139
+Read port: 60139
+WebDriver BiDi listening on ws://127.0.0.1:60120
+1678088153060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileKGEClJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60120/devtools/browser/38d8ce5e-6630-4b7e-9f8b-4be2b9c5f611
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YvrCvW6enSrSZlpWfT49hCwWEU4IwRN__jQypf5gIC4.js line 2 > eval line 4752 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678088158310	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YvrCvW6enSrSZlpWfT49hCwWEU4IwRN__jQypf5gIC4.js line 2 > eval line 1577 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1678088200391	Marionette	INFO	Stopped listening on port 60139
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1678140900836	geckodriver	INFO	Listening on 127.0.0.1:55853
+1678140904007	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55854" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileohyIDN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678140905166	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678140905179	Marionette	INFO	Listening on port 55869
+Read port: 55869
+WebDriver BiDi listening on ws://127.0.0.1:55854
+1678140905394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileohyIDN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55854/devtools/browser/5a4fcdf2-81b5-4a02-b597-8a39fc4de63a
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QgTZnvWYncyBbJYBpDMbCbR8MV8sYHPEFXGodYZ8fLU.js line 2 > eval line 960 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678140911555	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QgTZnvWYncyBbJYBpDMbCbR8MV8sYHPEFXGodYZ8fLU.js line 2 > eval line 6790 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1678140934156	Marionette	INFO	Stopped listening on port 55869
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 23528, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1678140938257	geckodriver	INFO	Listening on 127.0.0.1:56100
+1678140941284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56101" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileDMScpT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678140941803	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678140941808	Marionette	INFO	Listening on port 56118
+Read port: 56118
+WebDriver BiDi listening on ws://127.0.0.1:56101
+1678140941919	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileDMScpT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56101/devtools/browser/4ebc9af2-bf11-4a0c-afb4-689da8a700fb
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QgTZnvWYncyBbJYBpDMbCbR8MV8sYHPEFXGodYZ8fLU.js line 2 > eval line 7395 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678140946829	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QgTZnvWYncyBbJYBpDMbCbR8MV8sYHPEFXGodYZ8fLU.js line 2 > eval line 5896 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1678140966545	Marionette	INFO	Stopped listening on port 56118
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1678140973000	geckodriver	INFO	Listening on 127.0.0.1:56342
+1678140976051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56343" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofilevzWaZc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678140976707	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678140976711	Marionette	INFO	Listening on port 56357
+WebDriver BiDi listening on ws://127.0.0.1:56343
+Read port: 56357
+1678140976985	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofilevzWaZc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56343/devtools/browser/ad595ed9-6987-417e-8bf0-f7ec6749836f
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QgTZnvWYncyBbJYBpDMbCbR8MV8sYHPEFXGodYZ8fLU.js line 2 > eval line 7793 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678140982192	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QgTZnvWYncyBbJYBpDMbCbR8MV8sYHPEFXGodYZ8fLU.js line 2 > eval line 2697 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1678140998206	Marionette	INFO	Stopped listening on port 56357
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 12280, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1678217233305	geckodriver	INFO	Listening on 127.0.0.1:63455
+1678217236343	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63456" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofile4FFBxy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678217236928	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678217236944	Marionette	INFO	Listening on port 63473
+Read port: 63473
+WebDriver BiDi listening on ws://127.0.0.1:63456
+1678217237130	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofile4FFBxy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63456/devtools/browser/10031121-93c0-4d72-b859-65464d70708d
+JavaScript warning: https://pagead2.googlesyndication.com/bg/I2AVw-E8vr7fia97GFekWL1oTCJcTvshaudARuK5faA.js line 2 > eval line 4509 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678217243492	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/I2AVw-E8vr7fia97GFekWL1oTCJcTvshaudARuK5faA.js line 2 > eval line 6134 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1678217257008	Marionette	INFO	Stopped listening on port 63473
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1678217260826	geckodriver	INFO	Listening on 127.0.0.1:53349
+1678217263885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53350" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofile4oOugI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678217264531	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678217264540	Marionette	INFO	Listening on port 53360
+Read port: 53360
+WebDriver BiDi listening on ws://127.0.0.1:53350
+1678217264724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofile4oOugI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53350/devtools/browser/78b45d1c-7232-40fe-9d45-da66c3c277e0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/I2AVw-E8vr7fia97GFekWL1oTCJcTvshaudARuK5faA.js line 2 > eval line 2098 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1678217314195	Marionette	INFO	Stopped listening on port 53360
+Dynamically enable window occlusion 1
+1678230812525	geckodriver	INFO	Listening on 127.0.0.1:64953
+1678230815555	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64954" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofile2dbfge"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678230816096	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678230816103	Marionette	INFO	Listening on port 64966
+Read port: 64966
+WebDriver BiDi listening on ws://127.0.0.1:64954
+1678230816305	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofile2dbfge\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64954/devtools/browser/8c520c24-6a48-4068-ad35-5708327ac1b4
+JavaScript warning: https://pagead2.googlesyndication.com/bg/I2AVw-E8vr7fia97GFekWL1oTCJcTvshaudARuK5faA.js line 2 > eval line 4251 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678230822475	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/I2AVw-E8vr7fia97GFekWL1oTCJcTvshaudARuK5faA.js line 2 > eval line 3591 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+1678230834536	Marionette	INFO	Stopped listening on port 64966
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1678843250187	geckodriver	INFO	Listening on 127.0.0.1:53344
+1678843253248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53345" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileLJanJg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678843253754	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678843253762	Marionette	INFO	Listening on port 53364
+Read port: 53364
+WebDriver BiDi listening on ws://127.0.0.1:53345
+1678843253933	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileLJanJg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53345/devtools/browser/812b995e-3818-41c4-9cdc-9d4c4d11ccb8
+1678843260072	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/haezTdMeijvNpzpe-iMvzf0waJjhxHRsaf2aRdVkA3o.js line 2 > eval line 7686 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/haezTdMeijvNpzpe-iMvzf0waJjhxHRsaf2aRdVkA3o.js line 2 > eval line 4529 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1678843274611	Marionette	INFO	Stopped listening on port 53364
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 40496, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1678905930375	geckodriver	INFO	Listening on 127.0.0.1:53851
+1678905933439	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53852" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileZX0Uns"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678905933911	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678905933919	Marionette	INFO	Listening on port 53865
+Read port: 53865
+WebDriver BiDi listening on ws://127.0.0.1:53852
+1678905934089	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileZX0Uns\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53852/devtools/browser/5911c36e-79a1-4032-ba05-c652c433234f
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 6520 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678905939421	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 5835 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1678905956366	Marionette	INFO	Stopped listening on port 53865
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 21252, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 21252, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 21252, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1678906149540	geckodriver	INFO	Listening on 127.0.0.1:54201
+1678906152581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54202" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofilezlwofq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678906153108	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678906153116	Marionette	INFO	Listening on port 54212
+Read port: 54212
+WebDriver BiDi listening on ws://127.0.0.1:54202
+1678906153298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofilezlwofq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54202/devtools/browser/6ec8ec4b-8f49-498e-823d-38f3cb776298
+1678906159415	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 4756 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 728 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1678906179258	Marionette	INFO	Stopped listening on port 54212
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 5752, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1678906440156	geckodriver	INFO	Listening on 127.0.0.1:60334
+1678906443189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60335" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileYMe2ya"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678906443643	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678906443648	Marionette	INFO	Listening on port 60347
+Read port: 60347
+WebDriver BiDi listening on ws://127.0.0.1:60335
+1678906443832	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofileYMe2ya\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60335/devtools/browser/76d93867-0c7c-4baf-aeaf-14dcdf8f5a5e
+1678906448856	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 6344 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 210 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1678906477859	Marionette	INFO	Stopped listening on port 60347
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1678906486887	geckodriver	INFO	Listening on 127.0.0.1:60559
+1678906489937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60560" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofilesSaJRz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678906490387	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678906490393	Marionette	INFO	Listening on port 60579
+Read port: 60579
+WebDriver BiDi listening on ws://127.0.0.1:60560
+1678906490585	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Simin\\AppData\\Local\\Temp\\rust_mozprofilesSaJRz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60560/devtools/browser/4073b0a2-b0ec-40b1-9412-282643363771
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 2682 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678906495876	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/WygWmAr8N2thj-jBdqJCiD6QGZJ45ru74cfJMvWtULI.js line 2 > eval line 931 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+1678906526570	Marionette	INFO	Stopped listening on port 60579
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
