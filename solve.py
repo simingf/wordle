@@ -79,20 +79,14 @@ def is_valid(guess, result, word):
 
             # green green
             if result[pos1] == 2 and result[pos2] == 2:
-                if count(letter, word) != 2:
+                if count(letter, word) < 2:
                     return False
                 elif guess[pos1] != word[pos1] or guess[pos2] != word[pos2]:
                     return False
     
         if len(positions) == 3: # letter appears three times
-            # I was too lazy to count every case, so I only return false for words which have letters that are gray in the guess
-            bad_letters = set({})
-            for i in range(5):
-                if result[i] == 0:
-                    bad_letters.add(guess[i])
-            for char in word:
-                if char in bad_letters:
-                    return False
+            # There are only 20 words in answer list that have 3 repeated letters, so its okay to keep them all
+            return True
     
     return True
 

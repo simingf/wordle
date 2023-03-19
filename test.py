@@ -20,7 +20,7 @@ def test(answer):
             return j + 2
         guess = next_guess(guesses, answers)
     
-    print("Failed")
+    print("Failed on:", answer)
     return 0
 
 if __name__ == "__main__":
