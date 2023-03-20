@@ -20,8 +20,8 @@ def test(answer):
             return j + 2
         guess = next_guess(guesses, answers)
     
-    print("Failed on:", answer)
-    return 0
+    print(f"Failed on: {answer}")
+    return 10
 
 if __name__ == "__main__":
     trials = 100
@@ -33,7 +33,7 @@ if __name__ == "__main__":
         total_turns_taken += turns
         if turns != 0:
             success += 1
-        print("Game", i+1, ", ", answer, ": ", turns, "turns", flush=True)
+        print(f"Game {i+1}, {answer}: {turns}", flush=True)
         if (i+1) % 10 == 0:
             print("Average turns taken:", round(total_turns_taken / success, 2))
-    print("Success rate:", success / trials)
+    print(f"Success rate: {success / trials}")
