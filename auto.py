@@ -13,27 +13,21 @@ from solve import filter_answers, next_best_guesses
 
 driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 
+wait = WebDriverWait(driver, 10)
+
 driver.get("https://www.nytimes.com/games/wordle/index.html")
+
+play_button = wait.until(EC.visibility_of_element_located((By.XPATH, "//button[text()='Play']")))
+play_button.click()
+
+button_path = "/html/body/div/div/dialog/div/button"
+close_button = wait.until(EC.visibility_of_element_located((By.XPATH, button_path)))
+close_button.click()
 
 sleep(0.5)
 
-tracker_button_path = "//*[@id=\"pz-gdpr-btn-closex\"]"
-try: # the tracker button may or may not be there
-    close_tracker_button = driver.find_element(By.XPATH, tracker_button_path)
-    close_tracker_button.click()
-except:
-    pass
-
-sleep(0.25)
-
-button_path = "/html/body/div/div/dialog/div/button"
-close_button = driver.find_element(By.XPATH, button_path)
-close_button.click()
-
-sleep(0.25)
-
 def getState(round):
-    sleep(2.5)
+    sleep(2)
     states = []
     for i in range(1, 6):
         xpath = "/html/body/div/div/div/div/div[1]/div/div[{round}]/div[{letter}]/div".format(round=round, letter=i)
@@ -83,8 +77,8 @@ for round in range(1,7):
         guess = best_guesses[random.randint(0, len(best_guesses) - 1)]
     print()
 
-sleep(3)
+sleep(0.5)
 
 button_path = "/html/body/div/div/dialog/div/button"
-button = driver.find_element(By.XPATH, button_path)
+button = wait.until(EC.visibility_of_element_located((By.XPATH, button_path)))
 button.click()
